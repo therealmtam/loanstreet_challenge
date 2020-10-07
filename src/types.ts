@@ -1,5 +1,5 @@
 export type DealType = {
-    id?: number;
+    id: number;
     institution: string;
     dealSize: string;
     dealType: string;
@@ -7,5 +7,8 @@ export type DealType = {
 }
 
 export type DealsListType = {
-    deals: DealType[]
+    deals: DealType[],
+    selectedDeals?: { [key: string]: boolean }
 }
+
+export type DealsListTypeA = DealType[];

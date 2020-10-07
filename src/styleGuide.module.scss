@@ -1,0 +1,17 @@
+@import "./theme.scss";
+
+.fields {
+  &Error {
+    &Label {
+      color: red
+    }
+    &FieldBox {
+      border-color: red
+    }
+    &Text {
+      height: $BodySmall;
+      font-size: $BodySmall;
+      color: red
+    }
+  }
+}

@@ -29,4 +29,9 @@
       border-right: none;
     }
   }
+
+  &--button {
+    margin: 8px;
+    align-self: flex-end;
+  }
 }
